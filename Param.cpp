@@ -79,13 +79,13 @@ for (int r=0; r<100; r++){
 	
 	/* Weight track variables */
 	weighttrack=0;
-	TrackRate=150;
+	TrackRate=50;
 	useprob=1;
 	posIHprob=8;
 	negIHprob=2;
 	posHOprob=8;
 	negHOprob=2;
-	minusactivationlimit = 10^-4;
+	minusactivationlimit = 0;
 	use1313=1;
 	use1212=0;
 	use3131=1;
@@ -197,14 +197,14 @@ for (int r=0; r<100; r++){
 	frr=1000;
 	RefreshRate = frr;
 	const int 
-	nur=150;
+	nur=50;
 	const int 
 	rnur=1;
 	const int
-	nurn=150;
+	nurn=50;
 	newUpdateRate = nur; // rate of new update algorithm implementation (per # of images)
 	nnewUpdateRate =nurn;
-	cellnumber=1;
+	cellnumber=3;
 const int
 a=0;
 	
